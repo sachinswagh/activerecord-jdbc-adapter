@@ -129,7 +129,7 @@ module ArJdbc
       :integer => { :name => "NUMBER", :limit => 38 },
       :float => { :name => "NUMBER" },
       :decimal => { :name => "DECIMAL" },
-      :datetime => { :name => "DATE" },
+      :datetime => { :name => "TIMESTAMP" },
       :timestamp => { :name => "TIMESTAMP" },
       :time => { :name => "DATE" },
       :date => { :name => "DATE" },
